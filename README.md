@@ -12,8 +12,9 @@ For more information on how to this works with other frontends/backends, head ov
 
 ### Based on the following:
 
-1. Official examples `NextJS + React + Redux`: https://github.com/zeit/next.js/tree/master/examples/with-redux
+1. Official examples from Zeit `NextJS + React + Redux`: https://github.com/zeit/next.js/tree/master/examples/with-redux
 2. Realworld `React + Redux` https://github.com/gothinkster/react-redux-realworld-example-app
+3. Wesbos's Advanced React https://github.com/wesbos/Advanced-React/tree/master/finished-application/frontend
 
 # How it works
 
@@ -48,7 +49,7 @@ To get frontend running locally
 
 # Checklist
 
-[] Generate Folder Structure
+[x] Generate Folder/File Structure
 [] Add NextJS Routing for all endpoints
 [] Add in dummy-templating
 [] Add Redux boilerplate
