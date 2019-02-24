@@ -10,15 +10,46 @@ We've gone to great lengths to adhere to the **REACT+REDUX+NEXTJS ** community s
 
 For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
 
-# How it works
-
-> Describe the general architecture of your app here
-
-# Getting started
-
-> npm install, npm start, etc.
-
-# Based on the following:
+### Based on the following:
 
 1. Official examples `NextJS + React + Redux`: https://github.com/zeit/next.js/tree/master/examples/with-redux
 2. Realworld `React + Redux` https://github.com/gothinkster/react-redux-realworld-example-app
+
+# How it works
+
+General page breakdown
+
+- Home page (URL: /#/ )
+  - List of tags
+  - List of articles pulled from either Feed, Global, or by Tag
+  - Pagination for list of articles
+- Sign in/Sign up pages (URL: /#/login, /#/register )
+  - Use JWT (store the token in localStorage)
+- Settings page (URL: /#/settings )
+- Editor page to create/edit articles (URL: /#/editor, /#/editor/article-slug-here )
+- Article page (URL: /#/article/article-slug-here )
+  - Delete article button (only shown to article's author)
+  - Render markdown from server client side
+  - Comments section at bottom of page
+  - Delete comment button (only shown to comment's author)
+- Profile page (URL: /#/@username, /#/@username/favorites )
+  - Show basic user info
+  - List of articles populated from author's created articles or author's favorited articles
+
+# Getting started
+
+You can view a live demo over at [INSERT FINISHED LINK]
+
+To get frontend running locally
+
+1. Clone this repo
+2. `npm install`
+3. `npm start`
+
+# Checklist
+
+[] Generate Folder Structure
+[] Add NextJS Routing for all endpoints
+[] Add in dummy-templating
+[] Add Redux boilerplate
+[] Add Routes
