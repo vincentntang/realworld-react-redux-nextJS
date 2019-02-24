@@ -16,6 +16,10 @@ For more information on how to this works with other frontends/backends, head ov
 2. Realworld `React + Redux` https://github.com/gothinkster/react-redux-realworld-example-app
 3. Wesbos's Advanced React https://github.com/wesbos/Advanced-React/tree/master/finished-application/frontend
 
+### Notes
+
+1. Including CDN for CSS files https://github.com/zeit/next.js/issues/299
+
 # How it works
 
 General page breakdown
