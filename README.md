@@ -17,3 +17,8 @@ For more information on how to this works with other frontends/backends, head ov
 # Getting started
 
 > npm install, npm start, etc.
+
+# Based on the following:
+
+1. Official examples `NextJS + React + Redux`: https://github.com/zeit/next.js/tree/master/examples/with-redux
+2. Realworld `React + Redux` https://github.com/gothinkster/react-redux-realworld-example-app
