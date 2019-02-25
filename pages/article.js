@@ -2,37 +2,37 @@
 import React from "react";
 
 const Article = props => (
-  <div class="article-page">
-    <div class="banner">
-      <div class="container">
+  <div className="article-page">
+    <div className="banner">
+      <div className="container">
         <h1>How to build webapps that scale</h1>
 
-        <div class="article-meta">
+        <div className="article-meta">
           <a href="">
             <img src="http://i.imgur.com/Qr71crq.jpg" />
           </a>
-          <div class="info">
-            <a href="" class="author">
+          <div className="info">
+            <a href="" className="author">
               Eric Simons
             </a>
-            <span class="date">January 20th</span>
+            <span className="date">January 20th</span>
           </div>
-          <button class="btn btn-sm btn-outline-secondary">
-            <i class="ion-plus-round" />
-            &nbsp; Follow Eric Simons <span class="counter">(10)</span>
+          <button className="btn btn-sm btn-outline-secondary">
+            <i className="ion-plus-round" />
+            &nbsp; Follow Eric Simons <span className="counter">(10)</span>
           </button>
           &nbsp;&nbsp;
-          <button class="btn btn-sm btn-outline-primary">
-            <i class="ion-heart" />
-            &nbsp; Favorite Post <span class="counter">(29)</span>
+          <button className="btn btn-sm btn-outline-primary">
+            <i className="ion-heart" />
+            &nbsp; Favorite Post <span className="counter">(29)</span>
           </button>
         </div>
       </div>
     </div>
 
-    <div class="container page">
-      <div class="row article-content">
-        <div class="col-md-12">
+    <div className="container page">
+      <div className="row article-content">
+        <div className="col-md-12">
           <p>
             Web development technologies have evolved at an incredible clip over
             the past few years.
@@ -44,92 +44,92 @@ const Article = props => (
 
       <hr />
 
-      <div class="article-actions">
-        <div class="article-meta">
+      <div className="article-actions">
+        <div className="article-meta">
           <a href="profile.html">
             <img src="http://i.imgur.com/Qr71crq.jpg" />
           </a>
-          <div class="info">
-            <a href="" class="author">
+          <div className="info">
+            <a href="" className="author">
               Eric Simons
             </a>
-            <span class="date">January 20th</span>
+            <span className="date">January 20th</span>
           </div>
-          <button class="btn btn-sm btn-outline-secondary">
-            <i class="ion-plus-round" />
-            &nbsp; Follow Eric Simons <span class="counter">(10)</span>
+          <button className="btn btn-sm btn-outline-secondary">
+            <i className="ion-plus-round" />
+            &nbsp; Follow Eric Simons <span className="counter">(10)</span>
           </button>
           &nbsp;
-          <button class="btn btn-sm btn-outline-primary">
-            <i class="ion-heart" />
-            &nbsp; Favorite Post <span class="counter">(29)</span>
+          <button className="btn btn-sm btn-outline-primary">
+            <i className="ion-heart" />
+            &nbsp; Favorite Post <span className="counter">(29)</span>
           </button>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-xs-12 col-md-8 offset-md-2">
-          <form class="card comment-form">
-            <div class="card-block">
+      <div className="row">
+        <div className="col-xs-12 col-md-8 offset-md-2">
+          <form className="card comment-form">
+            <div className="card-block">
               <textarea
-                class="form-control"
+                className="form-control"
                 placeholder="Write a comment..."
                 rows="3"
               />
             </div>
-            <div class="card-footer">
+            <div className="card-footer">
               <img
                 src="http://i.imgur.com/Qr71crq.jpg"
-                class="comment-author-img"
+                className="comment-author-img"
               />
-              <button class="btn btn-sm btn-primary">Post Comment</button>
+              <button className="btn btn-sm btn-primary">Post Comment</button>
             </div>
           </form>
 
-          <div class="card">
-            <div class="card-block">
-              <p class="card-text">
+          <div className="card">
+            <div className="card-block">
+              <p className="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
             </div>
-            <div class="card-footer">
-              <a href="" class="comment-author">
+            <div className="card-footer">
+              <a href="" className="comment-author">
                 <img
                   src="http://i.imgur.com/Qr71crq.jpg"
-                  class="comment-author-img"
+                  className="comment-author-img"
                 />
               </a>
               &nbsp;
-              <a href="" class="comment-author">
+              <a href="" className="comment-author">
                 Jacob Schmidt
               </a>
-              <span class="date-posted">Dec 29th</span>
+              <span className="date-posted">Dec 29th</span>
             </div>
           </div>
 
-          <div class="card">
-            <div class="card-block">
-              <p class="card-text">
+          <div className="card">
+            <div className="card-block">
+              <p className="card-text">
                 With supporting text below as a natural lead-in to additional
                 content.
               </p>
             </div>
-            <div class="card-footer">
-              <a href="" class="comment-author">
+            <div className="card-footer">
+              <a href="" className="comment-author">
                 <img
                   src="http://i.imgur.com/Qr71crq.jpg"
-                  class="comment-author-img"
+                  className="comment-author-img"
                 />
               </a>
               &nbsp;
-              <a href="" class="comment-author">
+              <a href="" className="comment-author">
                 Jacob Schmidt
               </a>
-              <span class="date-posted">Dec 29th</span>
-              <span class="mod-options">
-                <i class="ion-edit" />
-                <i class="ion-trash-a" />
+              <span className="date-posted">Dec 29th</span>
+              <span className="mod-options">
+                <i className="ion-edit" />
+                <i className="ion-trash-a" />
               </span>
             </div>
           </div>
