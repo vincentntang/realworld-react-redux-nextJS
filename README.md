@@ -10,10 +10,21 @@ We've gone to great lengths to adhere to the **REACT+REDUX+NEXTJS ** community s
 
 For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
 
-### Based on the following:
+### Best Practices based on the following:
 
 1. Official examples `NextJS + React + Redux`: https://github.com/zeit/next.js/tree/master/examples/with-redux
 2. Realworld `React + Redux` https://github.com/gothinkster/react-redux-realworld-example-app
+3. Wesbos's Advanced React course https://github.com/wesbos/Advanced-React/tree/master/finished-application/frontend
+
+**General functionality:**
+
+- Authenticate users via JWT (login/signup pages + logout button on settings page)
+- CRU\* users (sign up & settings page - no deleting required)
+- CRUD Articles
+- CR\*D Comments on articles (no updating required)
+- GET and display paginated lists of articles
+- Favorite articles
+- Follow other users
 
 # How it works
 
@@ -52,9 +63,13 @@ To get frontend running locally
 - [x] Add NextJS Routing for major endpoints
 - [x] Add in dummy-templating
 - [x] Add Redux boilerplate
-- [ ] Add Links to routes
+- [x] Add Links to routes
 - [ ] Add Dynamic Route supports
 - [ ] Split into reuseable components
 - [ ] Add Logic
-- [ ] API Test Calls
 - [ ] add `__test__` jest suite
+
+Logic calls
+
+- [ ] GET Articles from API
+- [ ] CRUD Articles
