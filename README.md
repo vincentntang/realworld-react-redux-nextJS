@@ -48,8 +48,13 @@ To get frontend running locally
 
 # Checklist
 
-[] Generate Folder Structure
-[] Add NextJS Routing for all endpoints
-[] Add in dummy-templating
-[] Add Redux boilerplate
-[] Add Routes
+- [x] Generate Folder Structure
+- [x] Add NextJS Routing for major endpoints
+- [x] Add in dummy-templating
+- [x] Add Redux boilerplate
+- [ ] Add Links to routes
+- [ ] Add Dynamic Route supports
+- [ ] Split into reuseable components
+- [ ] Add Logic
+- [ ] API Test Calls
+- [ ] add `__test__` jest suite
