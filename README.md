@@ -47,6 +47,13 @@ General page breakdown
   - Show basic user info
   - List of articles populated from author's created articles or author's favorited articles
 
+## Overview
+
+- `/pages` matches the static endpoints 1:1
+- `lib` handles redux store creation
+- `store.js` at root has the redux logic
+- `components/Page` wraps the `pages/__app.js` which has the CDN link for the CSS
+
 # Getting started
 
 You can view a live demo over at [INSERT FINISHED LINK]
@@ -64,12 +71,18 @@ To get frontend running locally
 - [x] Add in dummy-templating
 - [x] Add Redux boilerplate
 - [x] Add Links to routes
-- [ ] Add Dynamic Route supports
 - [ ] Split into reuseable components
+- [ ] Add Dynamic Route supports
 - [ ] Add Logic
 - [ ] add `__test__` jest suite
 
 Logic calls
 
 - [ ] GET Articles from API
-- [ ] CRUD Articles
+
+# User Stories
+
+HOME PAGE
+
+- [ ] If user is logged in, he will not see the banner.
+- [ ] If user is not logged in, he will only see the "Sign Up" and "Sign In" Pages
