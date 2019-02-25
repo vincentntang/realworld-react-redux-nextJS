@@ -47,12 +47,13 @@ General page breakdown
   - Show basic user info
   - List of articles populated from author's created articles or author's favorited articles
 
-## Overview
+## General rules and structure
 
 - `/pages` matches the static endpoints 1:1
 - `lib` handles redux store creation
 - `store.js` at root has the redux logic
 - `components/Page` wraps the `pages/__app.js` which has the CDN link for the CSS
+- If a component is reused across multiple routes, it will be under `components/`, otherwise it will be in a subfolder like `components/Home`
 
 # Getting started
 
