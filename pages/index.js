@@ -3,6 +3,7 @@ import Banner from "../components/Home/Banner";
 import Tags from "../components/Home/Tags";
 import MainView from "../components/Home/MainView";
 import ArticleList from "../components/ArticleList";
+import Test from "../components/Experiment/Test";
 
 const Home = props => (
   <div className="home-page">
@@ -22,6 +23,7 @@ const Home = props => (
         </div>
       </div>
     </div>
+    <Test />
   </div>
 );
 
