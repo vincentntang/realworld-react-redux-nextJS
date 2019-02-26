@@ -1,6 +1,6 @@
 import React from "react";
 
-const Articles = props => (
+const ArticlePreview = props => (
   <React.Fragment>
     <div className="article-preview">
       <div className="article-meta">
@@ -55,4 +55,4 @@ const Articles = props => (
   </React.Fragment>
 );
 
-export default Articles;
+export default ArticlePreview;

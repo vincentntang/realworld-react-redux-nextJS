@@ -1,8 +1,8 @@
 import React from "react";
 import Banner from "../components/Home/Banner";
 import Tags from "../components/Home/Tags";
-import Articles from "../components/Home/Articles";
 import MainView from "../components/Home/MainView";
+import ArticleList from "../components/ArticleList";
 
 const Home = props => (
   <div className="home-page">
@@ -11,7 +11,7 @@ const Home = props => (
       <div className="row">
         <div className="col-md-9">
           <MainView />
-          <Articles />
+          <ArticleList />
         </div>
 
         <div className="col-md-3">
