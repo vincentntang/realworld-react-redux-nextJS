@@ -74,7 +74,7 @@ To get frontend running locally
 - [x] Add Links to routes
 - [ ] Split into reuseable components
 - [ ] Add Dynamic Route supports
-- [ ] Add Logic
+- [ ] Add API Calls to Articles / Tags
 - [ ] add `__test__` jest suite
 
 Logic calls
