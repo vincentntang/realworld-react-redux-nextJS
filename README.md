@@ -15,6 +15,7 @@ For more information on how to this works with other frontends/backends, head ov
 1. Official examples `NextJS + React + Redux`: https://github.com/zeit/next.js/tree/master/examples/with-redux
 2. Realworld `React + Redux` https://github.com/gothinkster/react-redux-realworld-example-app
 3. Wesbos's Advanced React course https://github.com/wesbos/Advanced-React/tree/master/finished-application/frontend
+4. Stephen Grider's React+Redux course Udemy (axios calls)
 
 **General functionality:**
 
