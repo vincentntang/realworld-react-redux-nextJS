@@ -11,3 +11,5 @@ Downloading the postman API, the following folders are shown
 - Tags
 
 Only `Articles` and `Tags` work without any authentication
+
+using a `test` route to handle calls to redux
