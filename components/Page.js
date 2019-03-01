@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Head from "./Head";
 import Navbar from "./Navbar";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 class Page extends Component {
   render() {
     return (
-      <div>
-        <Head/>
-        <Navbar/>
+      <React.Fragment>
+        <Head />
+        <Navbar />
         {this.props.children}
-        <Footer/>
-      </div>
+        <Footer />
+      </React.Fragment>
     );
   }
 }
