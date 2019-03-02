@@ -14,7 +14,9 @@
     "react-redux": "^5.0.1",
     "redux": "^3.6.0",
     "redux-devtools-extension": "^2.13.2",
-    "redux-thunk": "^2.1.0"
+    "redux-thunk": "^2.1.0",
+    "superagent": "^4.1.0",
+    "superagent-promise": "^1.1.0"
   },
   "license": "ISC"
 }
