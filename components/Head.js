@@ -1,7 +1,8 @@
+import NextHead from "next/head";
 import React from "react";
 
 const Head = props => (
-  <head>
+  <NextHead>
     <meta charset="utf-8" />
     <title>Conduit</title>
     <link
@@ -15,7 +16,7 @@ const Head = props => (
       type="text/css"
     />
     <link rel="stylesheet" href="//demo.productionready.io/main.css" />
-  </head>
+  </NextHead>
 );
 
 export default Head;
